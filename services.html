@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects | David Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="js/script.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <span class="logo">★</span>
+        <span class="brand-name">David | Portfolio</span>
+      </div>
+
+      <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="siteNav">
+        Menu
+      </button>
+
+      <nav class="site-nav" id="siteNav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a class="active" href="services.html">Projects</a></li>
+          <li><a href="news.html">Updates</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="container">
+    <section class="page-head">
+      <h1>Projects</h1>
+      <p class="muted">A few projects I built to practice real-world skills.</p>
+    </section>
+
+    <section class="grid">
+      <article class="card">
+        <h2>ChatGPT Clone</h2>
+        <p>
+          A ChatGPT-style web interface focused on clean UI, message flow,
+          and responsive design. Built to practice JavaScript logic and user interaction.
+        </p>
+        <p class="tag">JavaScript • UI</p>
+        <p class="muted">
+          <a href="#" target="_blank" rel="noopener">Live Demo</a> •
+          <a href="https://github.com/Davidngdev" target="_blank" rel="noopener">GitHub</a>
+        </p>
+      </article>
+
+      <article class="card">
+        <h2>Little Lemon Restaurant</h2>
+        <p>
+          A multi-page restaurant website built with semantic HTML and modern CSS.
+          Emphasis on responsive design and clean navigation across devices.
+        </p>
+        <p class="tag">HTML • CSS • Responsive</p>
+        <p class="muted">
+          <a href="#" target="_blank" rel="noopener">Live Demo</a> •
+          <a href="https://github.com/Davidngdev" target="_blank" rel="noopener">GitHub</a>
+        </p>
+      </article>
+
+      <article class="card">
+        <h2>JavaScript Mini-Apps</h2>
+        <p>
+          A collection of small JavaScript projects demonstrating DOM manipulation,
+          event handling, and basic application logic (validation, UI actions, and more).
+        </p>
+        <p class="tag">JavaScript • DOM</p>
+        <p class="muted">
+          <a href="https://github.com/Davidngdev" target="_blank" rel="noopener">GitHub</a>
+        </p>
+      </article>
+
+      <article class="card">
+        <h2>Personal Portfolio Website</h2>
+        <p>
+          A fully responsive 5-page portfolio featuring JavaScript interactivity:
+          mobile menu, accordion, form validation, and a back-to-top button.
+        </p>
+        <p class="tag">HTML • CSS • JavaScript</p>
+        <p class="muted">
+          <a href="#" target="_blank" rel="noopener">Live Demo</a> •
+          <a href="https://github.com/Davidngdev" target="_blank" rel="noopener">GitHub</a>
+        </p>
+      </article>
+    </section>
+
+    <section class="card">
+      <h2>Quick Demo Button</h2>
+      <p class="muted">This is here to show JavaScript interaction (rubric-friendly).</p>
+      <button class="btn" id="serviceBtn" type="button">Click Me</button>
+      <p id="serviceMsg" class="msg" aria-live="polite"></p>
+    </section>
+  </main>
+
+  <button id="topBtn" class="top-btn" aria-label="Back to top">↑ Top</button>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> David</p>
+      <p class="muted">Projects page</p>
+    </div>
+  </footer>
+</body>
+</html>

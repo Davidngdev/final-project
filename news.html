@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Updates | David Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="js/script.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <span class="logo">★</span>
+        <span class="brand-name">David | Portfolio</span>
+      </div>
+
+      <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="siteNav">
+        Menu
+      </button>
+
+      <nav class="site-nav" id="siteNav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Projects</a></li>
+          <li><a class="active" href="news.html">Updates</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="container">
+    <section class="page-head">
+      <h1>Updates</h1>
+      <p class="muted">Short progress notes and learning highlights.</p>
+    </section>
+
+    <section class="stack">
+      <article class="card">
+        <h2>Portfolio v1 completed</h2>
+        <p class="muted">This week</p>
+        <p>Built a 5-page responsive portfolio with JavaScript interactions and deployment readiness.</p>
+      </article>
+
+      <article class="card">
+        <h2>JavaScript fundamentals</h2>
+        <p class="muted">Recent</p>
+        <p>Worked on DOM events, form validation, and clean UI behavior with simple logic.</p>
+      </article>
+
+      <article class="card">
+        <h2>Next: stronger project presentation</h2>
+        <p class="muted">Next step</p>
+        <p>Improve READMEs, add better demos, and continue building projects that feel real.</p>
+      </article>
+    </section>
+  </main>
+
+  <button id="topBtn" class="top-btn" aria-label="Back to top">↑ Top</button>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> David</p>
+      <p class="muted">Updates page</p>
+    </div>
+  </footer>
+</body>
+</html>
